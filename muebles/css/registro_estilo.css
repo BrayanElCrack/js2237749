@@ -1,0 +1,67 @@
+.button_strength {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 30px;
+    flex: 1;
+    position: relative;
+    margin-left: 60%;
+}
+
+.strength_meter {
+    flex: 1;
+    left: -90%;
+    top: -14px;
+    width: 149%;
+    height: 10px;
+    z-index: -1;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.strength_meter div {
+    width: 0%;
+    height: 5px;
+    text-align: right;
+    color: rgba(248, 9, 9, 0.849);
+    line-height: 33px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    padding-right: 12px;
+    border-radius: 5px;
+}
+
+.strength_meter div p {
+    top: 0px;
+    right: 0px;
+    color: rgb(54, 54, 54);
+    font-size: 13px;
+    height: 9px;
+}
+
+.veryweak {
+    background-color: #FFA0A0;
+    border-color: #F04040 !important;
+    width: 25% !important;
+}
+
+.weak {
+    background-color: #FFB78C;
+    border-color: #FF853C !important;
+    width: 50% !important;
+}
+
+.medium {
+    background-color: #FFEC8B;
+    border-color: #FC0 !important;
+    width: 75% !important;
+}
+
+.strong {
+    background-color: #C3FF88;
+    border-color: #8DFF1C !important;
+    width: 100% !important;
+}

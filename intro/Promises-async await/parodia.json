@@ -1,0 +1,20 @@
+[
+    {
+        "planeta":"OSTIATU"
+    }
+    ,
+    {
+        "prota":"Farmacus",
+        "historia":"Llega al planeta OSTIATU para salvar a sus amigues..."
+    }
+    ,
+    {
+        "personaje_secundario":"Laurinha",
+        "dialogo":"Gracias Farmacus eres mi heroe"
+    }
+    ,
+    {
+        "personaje_secundario":"paulinha",
+        "dialogo":"Nuestro heroe"
+    }
+]
